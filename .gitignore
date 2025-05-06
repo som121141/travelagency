@@ -1,0 +1,45 @@
+# === General ===
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+*.env.*
+*.local
+
+# === OS generated ===
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Client Folder ===
+client/node_modules/
+client/build/
+client/.env
+client/.next/
+client/.turbo/
+client/yarn.lock
+client/package-lock.json
+
+# === Server Folder ===
+server/node_modules/
+server/dist/
+server/.env
+server/yarn.lock
+server/package-lock.json
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Editor-specific ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
